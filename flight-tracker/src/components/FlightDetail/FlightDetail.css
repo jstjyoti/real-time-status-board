@@ -1,0 +1,57 @@
+/* Flight detail styling */
+.flight-detail {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flight-detail h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .flight-detail table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  
+  .flight-detail th, .flight-detail td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .flight-detail th {
+    background-color: #007bff;
+    color: rgb(232, 236, 243);
+  }
+  
+  .flight-detail td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .flight-detail .back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .flight-detail .back-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Loading and error messages */
+  .loading, .error-message, .no-flight-message {
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+  }
+  

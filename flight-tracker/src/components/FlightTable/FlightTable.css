@@ -1,0 +1,108 @@
+/* Container for the entire flight table component */
+.flight-table-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title of the flight status board */
+  .flight-table-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  /* Table styling */
+  .flight-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Table header styling */
+  .flight-table thead {
+    background-color: #007bff;
+    color: rgb(14, 110, 236);
+  }
+  
+  .flight-table th {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #0056b3;
+    font-size: 16px;
+  }
+  
+  /* Table row and cell styling */
+  .flight-table tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .flight-table td {
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  /* Table row hover effect */
+  .flight-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Status cell styling */
+  .status-on-time {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .status-delayed {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .status-canceled {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .status-boarding {
+    color: rgb(0, 102, 255);
+    font-weight: bold;
+  }
+  
+  .status-departed {
+    color: rgb(192, 5, 5);
+    font-weight: bold;
+  }
+  
+  /* Link styling */
+  .flight-table a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .flight-table a:hover {
+    cursor: hand;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  /* No flights message */
+  .no-flights-message {
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
